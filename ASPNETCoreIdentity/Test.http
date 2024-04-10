@@ -1,0 +1,24 @@
+﻿GET https://localhost:7283/WeatherForecast
+
+###
+
+POST https://localhost:7283/register
+Content-Type: application/json
+
+{
+    "email": "koen.luyten@xebia.com",
+    "password": "Test!123"
+}
+###
+
+POST https://localhost:7283/login
+Content-Type: application/json
+
+{
+    "email": "koen.luyten@xebia.com",
+    "password": "Test!123"
+}
+
+###
+GET https://localhost:7283/WeatherForecast
+Authorization: Bearer CfDJ8BwHpefzZqdNn5hcEwwLN10fg2hExUL4ZFehCpGz-k6XrIsPbNRzRayVv_eaVT-je49ByiRPhRlwiBWKs4iTv-pBRow4gpityZDFhJ4MlSwWkyMSd1W__iUxEBsXRdIoWmnYwnpPE9vqE_-0_AAdlhOpfzqa6pXuvH1w35foq7pDsQ4jlI-t7nuXp27a0xYxK6l311wZegGgl3I1bkMguSNeFwSi_LJkn4Ze3gXjUol8GX4nJhjVaqb7WjqwbACMrRlEPb8p83J_KRjiugdnEJSFDHvQHt5u-TMtvZ32KhB0p3EtV0KgfT-mj7M-SXVef2Y5eW_VeruxeAT0ASNwoi3f_9bWEKaDY0DleZ_8Lq2xR5WQOnzwqS6dB8JTi8DugXWfr9WXDJTkY1w4X4lEtuSMaqJf4zeC_Q6FEOa8c1jV1acabYFTDjj3dQ__UQ8Mej4pDE7XzIkqbS2622XkJ_-6wsHb5qcSiEzkIE81QqB25kc7lsdd8mzBpCEMovLIR1zaCHg21zPzM3ap2fJFl-4K56iRxfcSlKbMwlZXz679pSjasLrGXZfyiiEwOZCCZJxtkU3_iKOHv08Do7IaochylyrGpjfdhbHZMgNjxpEX8-IhxwoLM1qAV3cCKtBk0icj4WfQFop9MD15VFBGbL88a7I75v0slpQ9c_EA2yPWqLpKMUKiFWm8AZnwPP8sSl5PZ3FY3NiKAwPeNTTaRKU
